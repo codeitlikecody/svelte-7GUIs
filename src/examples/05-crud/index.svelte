@@ -40,7 +40,7 @@
 	}
 
 	function clearFields() {
-		person = { name: '', surname: ' ' }
+		person = { name: '', surname: '' }
 	}
 </script>
 

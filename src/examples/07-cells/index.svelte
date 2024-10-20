@@ -75,7 +75,7 @@
 	<thead>
 		<tr>
 			<th></th>
-			{#each Array(rows) as _, i}
+			{#each Array(cols) as _, i}
 				<th>{letters[i]}</th>
 			{/each}
 		</tr>
