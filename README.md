@@ -1,12 +1,12 @@
 # 7GUIS
 
-Svelte implementation of 7GUIs.
+Svelte implementation of [7GUIs](https://eugenkiss.github.io/7guis/).
 
-## Remote Development
+## REPL
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/joysofcode/svelte-7GUIs)
 
-## Local Development
+## Setup
 
 ### 🧑‍🤝‍🧑 Clone the project
 
