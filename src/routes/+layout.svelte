@@ -89,6 +89,7 @@
       border-right: 1px solid var(--gray-8);
       box-shadow: var(--shadow-6);
       backdrop-filter: contrast(98%) blur(20px);
+      z-index: 1;
 
       .nav-container {
         .title {

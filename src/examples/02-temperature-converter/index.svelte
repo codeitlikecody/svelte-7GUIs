@@ -1,7 +1,7 @@
 <script lang="ts">
 	class Temperature {
-		#c = $state(0)
-		#f = $state(0)
+		#c = $state()
+		#f = $state()
 
 		get c() {
 			return this.#c
