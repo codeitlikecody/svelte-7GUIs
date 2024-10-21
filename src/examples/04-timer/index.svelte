@@ -15,6 +15,7 @@
 
 	function reset() {
 		elapsed = 0
+		clearInterval(interval)
 		start()
 	}
 
