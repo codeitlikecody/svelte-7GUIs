@@ -3,6 +3,6 @@
 </script>
 
 <div class="flex-gap">
-	<input type="number" bind:value={count} disabled />
+	<input type="number" bind:value={count} readonly />
 	<button onclick={() => count++}>Count</button>
 </div>
