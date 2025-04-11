@@ -50,6 +50,13 @@ input[disabled] {
 	border-radius: var(--radius-2);
 }
 
+.flex-col {
+	--gap: 0.5rem;
+	display: flex;
+	flex-direction:  column;
+	gap: var(--gap);
+}
+
 .flex-gap {
 	--gap: 0.5rem;
 	display: flex;
