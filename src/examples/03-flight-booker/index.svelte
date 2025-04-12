@@ -18,6 +18,11 @@
 		return `${year}-${month}-${day}`
 	}
 
+	function isValidDate(d: string) {
+		const date = new Date(d)
+		return date.getTime() === date.getTime()
+	}
+
 	let tripType = $state<Options>('one-way')
 	let departureDate = $state(getDate())
 	let returnDate = $state(getDate())
@@ -48,8 +53,10 @@
 
 		<button
 			type="submit"
-			disabled={!departureDate || (tripType === 'return' && departureDate > returnDate)}
-			>Book</button
+			disabled={!departureDate ||
+				!isValidDate(departureDate) ||
+				(tripType === 'return' &&
+					(departureDate > returnDate || !returnDate || !isValidDate(returnDate)))}>Book</button
 		>
 	</div>
 </form>
